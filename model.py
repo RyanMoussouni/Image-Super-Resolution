@@ -1,6 +1,6 @@
-from tensorflow.keras.model import Sequential
+from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D
-from tensorflow.keras.optimizer import Adam
+from tensorflow.keras.optimizers import Adam
 
 class SRCNN:
     def __init__(self):
